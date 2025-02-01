@@ -1,0 +1,27 @@
+module TaskManager {
+    enum TaskStatus {
+        NOT_STARTED,
+        IN_PROGRESS,
+        COMPLETED
+    };
+
+    struct Task {
+        string id;
+        string title;
+        string description;
+        string dueDate;
+        TaskStatus status;
+        string assignedTo;
+    };
+
+    typedef sequence<Task> TaskList;
+
+    interface TaskService {
+        void addTask(in Task task);
+        void removeTask(in string id);
+        TaskList getTasks();
+        void updateTaskStatus(in string id, in TaskStatus status);
+        void assignTask(in string id, in string user);
+        void updateTask(in Task task);
+    };
+};

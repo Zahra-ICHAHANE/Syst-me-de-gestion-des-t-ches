@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Système de gestion des tâches.iml" filepath="$PROJECT_DIR$/.idea/Système de gestion des tâches.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskManagerClient/TaskManagerClient.iml" filepath="$PROJECT_DIR$/TaskManagerClient/TaskManagerClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskManagerServer/TaskManagerServer.iml" filepath="$PROJECT_DIR$/TaskManagerServer/TaskManagerServer.iml" />
+    </modules>
+  </component>
+</project>
